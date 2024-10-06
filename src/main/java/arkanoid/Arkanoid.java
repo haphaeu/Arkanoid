@@ -258,6 +258,7 @@ public class Arkanoid implements KeyListener, MouseMotionListener, MouseListener
             case KeyEvent.VK_G:
                 System.out.println("funny things...");
                 godMode = !godMode;
+		break;
             default:
                 System.out.println("not implemented");
                 break;
